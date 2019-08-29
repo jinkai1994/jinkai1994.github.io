@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    星期5&#39;s blog
+    异步任务 | 星期5&#39;s blog
 </title>
 <link rel="shortcut icon" href="https://jinkai1994.github.io//favicon.ico?v=1567070279682">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -93,45 +93,98 @@
     });
 </script>
 
-            
-
-    <div class="archives-container main-container">
-        <ul class="timeline">
-            
-                <li>
-                    <h3 class="year">
-                        2019
-                    </h3>
-                    <ul class="year-wrapper">
-                        
-                            
-                                <li>
-                                    <span class="date">2019-08-29</span>
-                                    <a class="title" href="https://jinkai1994.github.io//post/YBBC">
-                                        <span>简单异步补偿机制设计</span>
-                                    </a>
-                                </li>
-                                
-                                    
-                            
-                                <li>
-                                    <span class="date">2019-08-14</span>
-                                    <a class="title" href="https://jinkai1994.github.io//post/ZFQD">
-                                        <span>基础支付渠道建设构想</span>
-                                    </a>
-                                </li>
-                                
-                                    
-                    </ul>
-
-                </li>
-                
-        </ul>
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        异步任务</b>
     </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://jinkai1994.github.io//post/YBBC">
+                        简单异步补偿机制设计
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2019-08-29</time>
+                    
+                        <a href="https://jinkai1994.github.io//tag/va8YrldhT" class="post-tag i-tag
+                            i-tag-">
+            #补偿
+        </a>
+                        
+                        <a href="https://jinkai1994.github.io//tag/rKfDokiCRo" class="post-tag i-tag
+                            i-tag-info">
+            #异步任务
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://jinkai1994.github.io//post/YBBC" class="post-feature-image" style="background-image:url(https://jinkai1994.github.io//post-images/YBBC.png) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                    <div class="post-content-abstract">
+                                        <p>适应业务需要大量异步驱动事件的场景<br>
+支持定制化补偿时长与调度策略<br>
+支持区分调度环境<br>
+利用elestic-job支持集群负载</p>
 
+                                    </div>
+                                    
+                                            <a class="btn btn-text" href="https://jinkai1994.github.io//post/YBBC">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
                 
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
 
-                    <div class="site-footer">
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://jinkai1994.github.io//images/avatar.png?v=1567070279682)">
+        </div>
+        <h1 class="id_card-title">
+            星期5&#39;s blog
+        </h1>
+        <h2 class="id_card-description">
+            生活不止眼前的苟且 还有远方的苟且
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
+
+
+
+            <div class="site-footer">
   Powered by jinkai | 
   <a class="rss" href="https://jinkai1994.github.io//atom.xml" target="_blank">RSS</a>
 </div>
@@ -141,6 +194,12 @@
 </script>
 
     </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
 </body>
 
 </html>
