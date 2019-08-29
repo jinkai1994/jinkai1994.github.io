@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jinkai1994.github.io/</id>
     <title>星期5&apos;s blog</title>
-    <updated>2019-08-15T03:50:48.167Z</updated>
+    <updated>2019-08-29T09:05:55.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jinkai1994.github.io/"/>
     <link rel="self" href="https://jinkai1994.github.io//atom.xml"/>
@@ -11,13 +11,28 @@
     <icon>https://jinkai1994.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 星期5&apos;s blog</rights>
     <entry>
+        <title type="html"><![CDATA[简单异步补偿机制设计]]></title>
+        <id>https://jinkai1994.github.io//post/jian-dan-yi-bu-bu-chang-ji-zhi-she-ji</id>
+        <link href="https://jinkai1994.github.io//post/jian-dan-yi-bu-bu-chang-ji-zhi-she-ji">
+        </link>
+        <updated>2019-08-29T08:48:13.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1整体流程">1.整体流程</h1>
+<p><img src="https://jinkai1994.github.io//post-images/1567068534974.png" alt=""></p>
+<h1 id="2表结构设计">2.表结构设计</h1>
+<h2 id="一-配置表">一、配置表</h2>
+<p><img src="https://jinkai1994.github.io//post-images/1567068863834.png" alt=""></p>
+<h2 id="二-补偿单据表">二、 补偿单据表</h2>
+<p><img src="https://jinkai1994.github.io//post-images/1567068840891.png" alt=""></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[基础支付渠道建设构想]]></title>
         <id>https://jinkai1994.github.io//post/channel_design</id>
         <link href="https://jinkai1994.github.io//post/channel_design">
         </link>
         <updated>2019-08-13T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<h1 id="前言">前言</h1>
-<p>支付渠道作为承载公司所有的支付通道能力，可包含支付、退款、出金、银行凭证等能力，目前只梳理了支付退款相关拙见，可随时交流。</p>
+<p>支付渠道作为承载公司所有的支付通道能力，可包含支付、退款、出金、银行凭证、POS刷卡等能力，目前只梳理了支付退款相关拙见，可随时交流。</p>
 <h1 id="1整体流程">1.整体流程</h1>
 <p><img src="https://jinkai1994.github.io//post-images/1565840507669.png" alt=""></p>
 <h1 id="2表结构设计">2.表结构设计</h1>

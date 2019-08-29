@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    基础支付渠道建设构想 | 星期5&#39;s blog
+    简单异步补偿机制设计 | 星期5&#39;s blog
 </title>
 <link rel="shortcut icon" href="https://jinkai1994.github.io//favicon.ico?v=1567069547378">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -106,35 +106,35 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            基础支付渠道建设构想
+                            简单异步补偿机制设计
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2019-08-14</time>
+                            <time class="post-time">2019-08-29</time>
                             
-                                <a href="https://jinkai1994.github.io//tag/qHCJ4ky2L" class="post-tag i-tag
-                            i-tag-other_3">
-                            #code
-                        </a>
-                                
                         </div>
                         
-                            <div class="post-feature-image" style="background-image: url('https://jinkai1994.github.io//post-images/channel_design.png')"></div>
-                            
                                 <div class="post-content">
-                                    <h1 id="前言">前言</h1>
-<p>支付渠道作为承载公司所有的支付通道能力，可包含支付、退款、出金、银行凭证、POS刷卡等能力，目前只梳理了支付退款相关拙见，可随时交流。</p>
-<h1 id="1整体流程">1.整体流程</h1>
-<p><img src="https://jinkai1994.github.io//post-images/1565840507669.png" alt=""></p>
+                                    <h1 id="1整体流程">1.整体流程</h1>
+<p><img src="https://jinkai1994.github.io//post-images/1567068534974.png" alt=""></p>
 <h1 id="2表结构设计">2.表结构设计</h1>
-<h2 id="支付记录表结构">支付记录表结构</h2>
-<p><img src="https://jinkai1994.github.io//post-images/1565840842780.png" alt=""></p>
-<h2 id="退款记录表结构">退款记录表结构</h2>
-<p><img src="https://jinkai1994.github.io//post-images/1565776247821.png" alt=""></p>
+<h2 id="一-配置表">一、配置表</h2>
+<p><img src="https://jinkai1994.github.io//post-images/1567068863834.png" alt=""></p>
+<h2 id="二-补偿单据表">二、 补偿单据表</h2>
+<p><img src="https://jinkai1994.github.io//post-images/1567068840891.png" alt=""></p>
 
                                 </div>
                     </article>
                     <!--  -->
                     
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://jinkai1994.github.io//post/channel_design">
+                                <h3 class="post-title">
+                                    基础支付渠道建设构想
+                                </h3>
+                            </a>
+                        </div>
+                        
                             <div id="disqus_thread"></div>
                             <div id="gitalk-container"></div>
                 </div>
@@ -149,12 +149,11 @@
         <div class="toc-title i-card-title">目录</div>
         <div class="toc-content">
             <ul class="markdownIt-TOC">
-<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
 <li><a href="#1%E6%95%B4%E4%BD%93%E6%B5%81%E7%A8%8B">1.整体流程</a></li>
 <li><a href="#2%E8%A1%A8%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1">2.表结构设计</a>
 <ul>
-<li><a href="#%E6%94%AF%E4%BB%98%E8%AE%B0%E5%BD%95%E8%A1%A8%E7%BB%93%E6%9E%84">支付记录表结构</a></li>
-<li><a href="#%E9%80%80%E6%AC%BE%E8%AE%B0%E5%BD%95%E8%A1%A8%E7%BB%93%E6%9E%84">退款记录表结构</a></li>
+<li><a href="#%E4%B8%80-%E9%85%8D%E7%BD%AE%E8%A1%A8">一、配置表</a></li>
+<li><a href="#%E4%BA%8C-%E8%A1%A5%E5%81%BF%E5%8D%95%E6%8D%AE%E8%A1%A8">二、 补偿单据表</a></li>
 </ul>
 </li>
 </ul>
